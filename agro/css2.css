@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #00000052;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.user-actions a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #00000052;
+    border-radius: 5px;
+}
+
+.buyers, .farmers, .additional-features {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.buyers h2, .farmers h2, .additional-features h2 {
+    margin-bottom: 20px;
+}
+
+.buyers ul, .farmers ul, .additional-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.buyers li, .farmers li, .additional-features li {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.user-actions a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.buyers, .farmers, .additional-features {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.buyers h2, .farmers h2, .additional-features h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.buyers ul, .farmers ul, .additional-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.buyers li, .farmers li, .additional-features li {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.sign-up-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sign-up-form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.sign-up-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-up-form button:hover {
+    background-color: #0056b3;
+}
