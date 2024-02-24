@@ -9,18 +9,23 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url('farmer1BGimage.png');
+ 
+    background-size:cover;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
+    
+    width: 700px;
+    margin: 0px 0px 0px 550px;
     padding: 20px;
 }
 
 header {
-    background-color: #416D19;
-    color: white;
+    
+   
+    color:black ;
     padding: 20px;
     text-align: center;
     
@@ -37,6 +42,7 @@ header p {
 button {
     padding: 10px 20px;
     font-size: 16px;
+    position:relative;
     
     margin: 10px;
     cursor: pointer;
@@ -45,6 +51,7 @@ button {
     color: white;
     border: black;
     border-radius: 5px;
+    float:right;
 }
 
 button:hover {
