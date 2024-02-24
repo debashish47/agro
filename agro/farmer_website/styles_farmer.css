@@ -1,0 +1,55 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('farmer1BGimage.png');
+    background-size:cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    /* background-color: red; */
+    width: 700px;
+    margin: 0px 0px 0px 803px;
+    padding: 2px;
+}
+
+header {
+    color:black ;
+    padding: 20px;
+    text-align: center; 
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    position:relative;
+    margin: 10px;
+    cursor: pointer;
+    opacity: 1;
+    background-color: #055a08;
+    color: white;
+    border: black;
+    border-radius: 5px;
+    float:right;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
