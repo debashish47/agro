@@ -36,9 +36,10 @@ header p {
 }
 
 button {
+    
     padding: 10px 20px;
     font-size: 16px;
-    position:relative;
+    /* position:relative; */
     margin: 10px;
     cursor: pointer;
     opacity: 1;
@@ -46,7 +47,19 @@ button {
     color: white;
     border: black;
     border-radius: 5px;
-    float:right;
+    float: right;
+    width: 200px;
+    display: block;
+}
+
+#btn1{
+    width: 150px;
+}
+#btn2{
+    width: 250px;
+}
+#btn3{
+    width: 150px;
 }
 
 button:hover {
