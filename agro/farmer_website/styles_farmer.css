@@ -68,5 +68,7 @@ button {
 
 button:hover {
     background-color: #45a049;
+    transition-delay: .18s;
+    border-radius: 200px solid black;
 }
 
